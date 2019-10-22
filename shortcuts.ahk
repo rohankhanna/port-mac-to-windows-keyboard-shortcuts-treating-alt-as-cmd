@@ -38,7 +38,7 @@ CapsLock & Right::Send {End}
 
 ; Remap for Mac Like
 ;CapsLock::Send $
-!c::Send ^c
+!c::Send ^+{Insert}
 !Space::Send {Break}
 !Left::Send {Home}
 !Right::Send {End}
@@ -51,7 +51,7 @@ CapsLock & Right::Send {End}
 !+c::Send ^+c
 !+e::Send ^+e
 !Enter::Send ^{Enter}
-!v::Send ^v
+!v::Send +{Insert}
 !q::Send ^q
 !+q::Send ^+q
 !n::Send ^n
